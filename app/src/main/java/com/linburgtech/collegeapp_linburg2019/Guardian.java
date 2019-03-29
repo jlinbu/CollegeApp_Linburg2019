@@ -1,9 +1,9 @@
 package com.linburgtech.collegeapp_linburg2019;
 
-public class Guardian {
-
-    String lastName;
+public class Guardian extends FamilyMember {
     String firstName;
+    String lastName;
+
 
     public String getLastName() {
         return lastName;
@@ -20,6 +20,13 @@ public class Guardian {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+    public Guardian(){
+        super();
+    }
+
+
+
 
 
 }
