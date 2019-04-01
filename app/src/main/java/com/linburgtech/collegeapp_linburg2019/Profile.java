@@ -1,9 +1,12 @@
 package com.linburgtech.collegeapp_linburg2019;
 
+import java.util.Date;
+
 public class Profile {
 
     String lastName;
     String firstName;
+    Date dateOfBirth;
 
     public String getLastName() {
         return lastName;
@@ -19,6 +22,10 @@ public class Profile {
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public Profile(){
+        dateOfBirth = new Date();
     }
 
 
