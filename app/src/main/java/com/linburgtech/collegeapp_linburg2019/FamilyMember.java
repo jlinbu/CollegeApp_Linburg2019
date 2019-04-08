@@ -32,4 +32,9 @@ public abstract class FamilyMember {
         lastName = "Member";
    }
 
+   public FamilyMember(String firstName, String lastName){
+        mFirstName = firstName;
+        this.lastName = lastName;
+   }
+
 }

@@ -25,7 +25,9 @@ public class Guardian extends FamilyMember {
         super();
     }
 
-
+    public Guardian(String firstName, String lastName){
+        super(firstName, lastName);
+    }
 
 
 
