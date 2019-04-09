@@ -12,6 +12,10 @@ public class Family {
 
     private Family(){
         family = new ArrayList<>();
+        Guardian mom = new Guardian("my", "mother");
+        Guardian dad = new Guardian("my", "father");
+        family.add(mom);
+        family.add(dad);
     }
 
     public static Family getFamily(){
